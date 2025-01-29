@@ -4,6 +4,8 @@ from flask_cors import CORS
 app = Flask(__name__)
 cors = CORS(app, origins="*")
 
+@app.route("/home")
+
 @app.route("/api/users", methods=['GET'])
 def users():
     return jsonify(

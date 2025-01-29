@@ -1,0 +1,10 @@
+.navbar-brand {
+    background-color: rgb(36, 43, 38);
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;          /* Change to whatever color you want on hover */
+    background-color: #0dfd91;  /* e.g., a bootstrap primary color */
+    cursor: pointer;
+}
